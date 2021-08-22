@@ -34,6 +34,10 @@ ReactDOM.render(
         fruitLogger.click(name, params);
         toaster.click(name, params);
       }}
+      onSetUserId={userId => {
+        // TODO: UserId 설정하는 코드 추가
+        console.log(userId);
+      }}
     >
       <App />
     </AnalyticsProvider>
