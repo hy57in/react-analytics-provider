@@ -8,7 +8,7 @@ interface Props {
   onPageView?(params?: UnknownRecord): void;
   onEvent?(name: string, params?: UnknownRecord): void;
   onClick?(name: string, params?: UnknownRecord): void;
-  onSetUserId?(userId: string | null): void;
+  onSetUserId?(userId: string | number | null): void;
   children: React.ReactNode;
 }
 
